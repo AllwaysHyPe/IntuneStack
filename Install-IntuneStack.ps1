@@ -8,7 +8,7 @@ folder in the user's PowerShell module path, following the pattern from
 Practical Automation with PowerShell (Dowst, 2023).
 
 .EXAMPLE
-Invoke-Expression (Invoke-RestMethod -Uri 'https://raw.githubusercontent.com/AllwaysHyPe/IntuneStack/main/Install-IntuneStack.ps1')
+Invoke-Expression (Invoke-RestMethod -Uri 'https://raw.githubusercontent.com/AllwaysHyPe/IntuneStack/refs/heads/main/Install-IntuneStack.ps1')
 #>
 
 $RepoUrl = 'https://github.com/AllwaysHyPe/IntuneStack.git'
